@@ -1,0 +1,14 @@
+{
+  "name": "Copa Desafío",
+  "short_name": "Copa Desafío",
+  "lang": "es",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1b5e37",
+  "theme_color": "#1b5e37",
+  "icons": [
+    { "src": "icono-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icono-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
