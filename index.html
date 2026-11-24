@@ -23,7 +23,7 @@ body { position: fixed; inset: 0; font-family: Barlow, system-ui, sans-serif; co
 	-webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
 .campo, .compartir, .avisos, .foto { position: fixed; box-sizing: border-box; margin: 0; border: 0; border-radius: 10px;
 	-webkit-appearance: none; appearance: none; }
-.campo { background: #fff; color: #0e2a1a; font-family: Barlow, system-ui, sans-serif; outline: none; }
+.campo { resize: none; padding-top: 8px; background: #fff; color: #0e2a1a; font-family: Barlow, system-ui, sans-serif; outline: none; }
 .campo:focus { box-shadow: 0 0 0 3px #1b5e37; }
 .campo::placeholder { color: #6b806f; opacity: 1; }
 .compartir, .avisos { background: transparent; }
@@ -42,7 +42,7 @@ body { position: fixed; inset: 0; font-family: Barlow, system-ui, sans-serif; co
 <script src="index.js"></script>
 <script>
 (function () {
-	const config = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":516088,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+	const config = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":530156,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 	const carga = document.getElementById('carga');
 	const mensaje = document.getElementById('mensaje');
 	const relleno = document.querySelector('#barra div');
